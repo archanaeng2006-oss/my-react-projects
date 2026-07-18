@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.archana.tests.DepartmentTest">
+        <methods>
+          <include name="departmentTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.DepartmentTest -->
+      <class name="com.archana.tests.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.LoginTest -->
+      <class name="com.archana.tests.AddEmployeeTest">
+        <methods>
+          <include name="addEmployeeTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.AddEmployeeTest -->
+      <class name="com.archana.tests.SettingsTest">
+        <methods>
+          <include name="settingsTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.SettingsTest -->
+      <class name="com.archana.tests.PayrollTest">
+        <methods>
+          <include name="payrollTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.PayrollTest -->
+      <class name="com.archana.tests.EmployeeLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="employeeLoginTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.EmployeeLoginTest -->
+      <class name="com.archana.tests.ReportsTest">
+        <methods>
+          <include name="reportsTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.ReportsTest -->
+      <class name="com.archana.tests.EmployeesTest">
+        <methods>
+          <include name="employeesPageTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.EmployeesTest -->
+      <class name="com.archana.tests.DashboardTest">
+        <methods>
+          <include name="dashboardTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.DashboardTest -->
+      <class name="com.archana.tests.AttendanceTest">
+        <methods>
+          <include name="attendanceTest"/>
+        </methods>
+      </class> <!-- com.archana.tests.AttendanceTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
