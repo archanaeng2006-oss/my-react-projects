@@ -1,0 +1,16 @@
+com\archana\tests\AttendanceTest.class
+com\archana\tests\PayrollTest.class
+com\archana\base\BaseTest.class
+com\archana\tests\EmployeesTest.class
+com\archana\tests\AddEmployeeTest.class
+com\archana\tests\DepartmentTest.class
+com\archana\tests\GoogleSearchTest.class
+com\archana\tests\LoginTest.class
+com\archana\tests\EmployeeLoginTest.class
+com\archana\tests\SettingsTest.class
+com\archana\tests\GoogleTest.class
+com\archana\pages\LoginPage.class
+com\archana\tests\ReportsTest.class
+com\archana\FirstTest.class
+com\archana\AppTest.class
+com\archana\tests\DashboardTest.class
